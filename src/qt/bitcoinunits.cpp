@@ -1,6 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The GoByte Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(GBX);
-    unitlist.append(mGBX);
-    unitlist.append(uGBX);
+    unitlist.append(CRC);
+    unitlist.append(mCRC);
+    unitlist.append(uCRC);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -31,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case GBX:
-    case mGBX:
-    case uGBX:
+    case CRC:
+    case mCRC:
+    case uCRC:
     case duffs:
         return true;
     default:
@@ -47,9 +46,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case GBX: return QString("GBX");
-            case mGBX: return QString("mGBX");
-            case uGBX: return QString::fromUtf8("μGBX");
+            case CRC: return QString("CRC");
+            case mCRC: return QString("mCRC");
+            case uCRC: return QString::fromUtf8("μCRC");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,9 +57,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case GBX: return QString("tGBX");
-            case mGBX: return QString("mtGBX");
-            case uGBX: return QString::fromUtf8("μtGBX");
+            case CRC: return QString("tCRC");
+            case mCRC: return QString("mtCRC");
+            case uCRC: return QString::fromUtf8("μtCRC");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -73,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case GBX: return QString("GoByte");
-            case mGBX: return QString("Milli-GoByte (1 / 1" THIN_SP_UTF8 "000)");
-            case uGBX: return QString("Micro-GoByte (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-GoByte (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case CRC: return QString("Crowdcoin");
+            case mCRC: return QString("Milli-Crowdcoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uCRC: return QString("Micro-Crowdcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Crowdcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case GBX: return QString("TestGoBytes");
-            case mGBX: return QString("Milli-TestGoByte (1 / 1" THIN_SP_UTF8 "000)");
-            case uGBX: return QString("Micro-TestGoByte (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestGoByte (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case CRC: return QString("TestCrowdcoins");
+            case mCRC: return QString("Milli-TestCrowdcoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uCRC: return QString("Micro-TestCrowdcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestCrowdcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -97,9 +96,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case GBX:  return 100000000;
-    case mGBX: return 100000;
-    case uGBX: return 100;
+    case CRC:  return 100000000;
+    case mCRC: return 100000;
+    case uCRC: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -109,9 +108,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case GBX: return 8;
-    case mGBX: return 5;
-    case uGBX: return 2;
+    case CRC: return 8;
+    case mCRC: return 5;
+    case uCRC: return 2;
     case duffs: return 0;
     default: return 0;
     }

@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of GoByte.
+This directory contains data-driven tests for various aspects of Crowdcoin.
 
 License
 --------

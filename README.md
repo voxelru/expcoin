@@ -1,31 +1,31 @@
-GoByte Core staging tree 0.12.1
+Crowdcoin Core staging tree 0.12.1
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/gobytecoin/gobyte.svg?branch=master)](https://travis-ci.org/gobytecoin/gobyte) `develop:` [![Build Status](https://travis-ci.org/gobytecoin/gobyte.svg?branch=develop)](https://travis-ci.org/gobytecoin/gobyte/branches)
+`master:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=master)](https://travis-ci.org/crowdcoincoin/crowdcoin) `v0.12.0.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.0.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches) `v0.12.1.x:` [![Build Status](https://travis-ci.org/crowdcoincoin/crowdcoin.svg?branch=v0.12.1.x)](https://travis-ci.org/crowdcoincoin/crowdcoin/branches)
 
-https://www.gobyte.network
+http://www.crowdcoin.site
 
 
-What is GoByte?
+What is Crowdcoin?
 ----------------
 
-GoByte (GBX) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology with 50% Reward, near-instant and secure payments as well as anonymous transactions. GoByte has great potential for rapid growth and expansion. Based on a total Proof of Work and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
-
-Additional information, wallets, specifications & roadmap: https://bitcointalk.org/index.php?topic=2442185.0
+CRC is an advanced, decentralized and secure digital currency. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology, near-instant and secure payments as well as anonymous transactions. With a fast block time of only 2 minutes, transactions will usually confirm and be successfully processed very quickly. CRC's blockchain uses the advanced NeoScrypt Proof-of-Work algorithm to secure the network. NeoScrypt is ASIC resistant and ensures a fair and stable return on investment for the miners.
+ 
+Additional information, wallets, specifications & roadmap: https://bitcointalk.org/index.php?topic=2348866.0
 
 
 License
 -------
 
-GoByte Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Crowdcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/gobytecoin/gobyte/tags) are created to indicate new official,
-stable release versions of GoByte Core.
+[Tags](https://github.com/crowdcoincoin/crowdcoin/tags) are created to indicate new official,
+stable release versions of Crowdcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

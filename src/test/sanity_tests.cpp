@@ -4,7 +4,7 @@
 
 #include "compat/sanity.h"
 #include "key.h"
-#include "test/test_gobyte.h"
+#include "test/test_crowdcoin.h"
 
 #include <boost/test/unit_test.hpp>
 

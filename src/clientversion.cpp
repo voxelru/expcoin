@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both gobyted and gobyte-qt, to make it harder for attackers to
+ * for both crowdcoind and crowdcoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("GoByte Core");
+const std::string CLIENT_NAME("Crowdcoin Core");
 
 /**
  * Client version number

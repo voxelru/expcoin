@@ -1,5 +1,4 @@
-// Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The GoByte Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +32,7 @@ std::vector<CAmount> vecPrivateSendDenominations;
 
 void CDarksendPool::ProcessMessage(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
 {
-    if(fLiteMode) return; // ignore all GoByte related functionality
+    if(fLiteMode) return; // ignore all Crowdcoin related functionality
     if(!masternodeSync.IsBlockchainSynced()) return;
 
     if(strCommand == NetMsgType::DSACCEPT) {
@@ -748,7 +747,7 @@ void CDarksendPool::ChargeFees()
 
     Being that mixing has "no fees" we need to have some kind of cost associated
     with using it to stop abuse. Otherwise it could serve as an attack vector and
-    allow endless transaction that would bloat GoByte and make it unusable. To
+    allow endless transaction that would bloat Crowdcoin and make it unusable. To
     stop these kinds of attacks 1 in 10 successful transactions are charged. This
     adds up to a cost of 0.001DRK per transaction on average.
 */
@@ -2197,10 +2196,10 @@ int CDarksendPool::GetDenominations(const std::vector<CTxOut>& vecTxOut, bool fS
 bool CDarksendPool::GetDenominationsBits(int nDenom, std::vector<int> &vecBitsRet)
 {
     // ( bit on if present, 4 denominations example )
-    // bit 0 - 100GBX+1
-    // bit 1 - 10GBX+1
-    // bit 2 - 1GBX+1
-    // bit 3 - .1GBX+1
+    // bit 0 - 100CRC+1
+    // bit 1 - 10CRC+1
+    // bit 2 - 1CRC+1
+    // bit 3 - .1CRC+1
 
     int nMaxDenoms = vecPrivateSendDenominations.size();
 
@@ -2464,14 +2463,14 @@ void CDarksendPool::UpdatedBlockTip(const CBlockIndex *pindex)
 //TODO: Rename/move to core
 void ThreadCheckDarkSendPool()
 {
-    if(fLiteMode) return; // disable all GoByte specific functionality
+    if(fLiteMode) return; // disable all Crowdcoin specific functionality
 
     static bool fOneThread;
     if(fOneThread) return;
     fOneThread = true;
 
     // Make this thread recognisable as the PrivateSend thread
-    RenameThread("gobyte-privatesend");
+    RenameThread("crowdcoin-privatesend");
 
     unsigned int nTick = 0;
     unsigned int nDoAutoNextRun = nTick + PRIVATESEND_AUTO_TIMEOUT_MIN;

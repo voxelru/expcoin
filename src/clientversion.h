@@ -6,18 +6,18 @@
 #define BITCOIN_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/gobyte-config.h"
+#include "config/crowdcoin-config.h"
 #else
 
 /**
  * client versioning and copyright year
  */
 
-//! These need to be macros, as clientversion.cpp's and gobyte*-res.rc's voodoo requires it
+//! These need to be macros, as clientversion.cpp's and crowdcoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 0
 #define CLIENT_VERSION_MINOR 12
 #define CLIENT_VERSION_REVISION 1
-#define CLIENT_VERSION_BUILD 3
+#define CLIENT_VERSION_BUILD 6
 
 //! Set to true for release, false for prerelease or test build
 #define CLIENT_VERSION_IS_RELEASE true
@@ -38,10 +38,10 @@
 #define DO_STRINGIZE(X) #X
 
 //! Copyright string used in Windows .rc files
-#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2017-" STRINGIZE(COPYRIGHT_YEAR) " The GoByte Core Developers"
+#define COPYRIGHT_STR "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin Core Developers, 2014-" STRINGIZE(COPYRIGHT_YEAR) " The Crowdcoin Core Developers"
 
 /**
- * gobyted-res.rc includes this file, but it cannot cope with real c++ code.
+ * crowdcoind-res.rc includes this file, but it cannot cope with real c++ code.
  * WINDRES_PREPROC is defined to indicate that its pre-processor is running.
  * Anything other than a define should be guarded below.
  */

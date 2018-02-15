@@ -10,7 +10,7 @@
 #include "sync.h"
 #include "utilstrencodings.h"
 #include "utilmoneystr.h"
-#include "test/test_gobyte.h"
+#include "test/test_crowdcoin.h"
 
 #include <stdint.h>
 #include <vector>

@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * GoByte RPC command dispatcher.
+ * Crowdcoin RPC command dispatcher.
  */
 class CRPCTable
 {

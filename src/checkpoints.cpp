@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The GoByte Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -59,6 +58,7 @@ namespace Checkpoints {
 
     int GetTotalBlocksEstimate(const CCheckpointData& data)
     {
+        return 0; //LPCHANGE
         const MapCheckpoints& checkpoints = data.mapCheckpoints;
 
         if (checkpoints.empty())
@@ -69,6 +69,7 @@ namespace Checkpoints {
 
     CBlockIndex* GetLastCheckpoint(const CCheckpointData& data)
     {
+        return NULL; //LPCHANGE
         const MapCheckpoints& checkpoints = data.mapCheckpoints;
 
         BOOST_REVERSE_FOREACH(const MapCheckpoints::value_type& i, checkpoints)

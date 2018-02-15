@@ -1,9 +1,8 @@
-// Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The GoByte Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_gobyte.h"
+#include "test/test_crowdcoin.h"
 
 #include <algorithm>
 #include <iostream>

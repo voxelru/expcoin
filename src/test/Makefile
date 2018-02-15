@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. gobyte_test
+	$(MAKE) -C .. crowdcoin_test
 clean:
-	$(MAKE) -C .. gobyte_test_clean
+	$(MAKE) -C .. crowdcoin_test_clean
 check:
-	$(MAKE) -C .. gobyte_test_check
+	$(MAKE) -C .. crowdcoin_test_check

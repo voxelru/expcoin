@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build gobyted (headless client) for OSX.
+This guide will show you how to build crowdcoind (headless client) for OSX.
 
 Notes
 -----
@@ -34,18 +34,18 @@ Instructions: Homebrew
 
     brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf libevent
 
-NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which GoByte Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
+NOTE: Building with Qt4 is still supported, however, could result in a broken UI. As such, building with Qt5 is recommended. Qt5 5.7 requires C++11 which Crowdcoin Core doesn't fully support yet, Qt5 5.6.2 has some other issues, so make sure to install Qt version < 5.6.2 (5.6.1-1 is recommended).
     brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/e6d954bab88e89c5582498157077756900865070/Formula/qt5.rb
 
-### Building GoByte Core
+### Building Crowdcoin Core
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/gobytecoin/gobyte.git
-        cd gobyte
+        git clone https://github.com/crowdcoincoin/crowdcoin.git
+        cd crowdcoin
 
-2.  Build GoByte Core:
-    This will configure and build the headless gobyte binaries as well as the gui (if Qt is found).
+2.  Build Crowdcoin Core:
+    This will configure and build the headless crowdcoin binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
         ./autogen.sh
@@ -56,7 +56,7 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
         make check
 
-4.  (Optional) You can also install gobyted to your path:
+4.  (Optional) You can also install crowdcoind to your path:
 
         make install
 
@@ -68,7 +68,7 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "gobyte-qt" as project name, enter src/qt as location
+4. Enter "crowdcoin-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -78,11 +78,11 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `gobyted` for your own use.
+You can ignore this section if you are building `crowdcoind` for your own use.
 
-gobyted/gobyte-cli binaries are not included in the GoByte-Qt.app bundle.
+crowdcoind/crowdcoin-cli binaries are not included in the Crowdcoin-Qt.app bundle.
 
-If you are building `gobyted` or `GoByte Core` for others, your build machine should be set up
+If you are building `crowdcoind` or `Crowdcoin Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -91,30 +91,30 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the GoByte Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Crowdcoin Core
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./gobyted`, provided that you are still in the `src`
+It's now available at `./crowdcoind`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./gobyted` to get the filename where it should be put, or just try these
+Run `./crowdcoind` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=gobyterpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/GoByteCore/gobyte.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/GoByteCore/gobyte.conf"
+    echo -e "rpcuser=crowdcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/CrowdcoinCore/crowdcoin.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/GoByteCore/debug.log
+    tail -f $HOME/Library/Application\ Support/CrowdcoinCore/debug.log
 
 Other commands:
 -------
 
-    ./gobyted -daemon # to start the gobyte daemon.
-    ./gobyte-cli --help  # for a list of command-line options.
-    ./gobyte-cli help    # When the daemon is running, to get a list of RPC commands
+    ./crowdcoind -daemon # to start the crowdcoin daemon.
+    ./crowdcoin-cli --help  # for a list of command-line options.
+    ./crowdcoin-cli help    # When the daemon is running, to get a list of RPC commands

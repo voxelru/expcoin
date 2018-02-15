@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: gobyted.service
-Upstart: gobyted.conf
-OpenRC:  gobyted.openrc
-         gobyted.openrcconf
-CentOS:  gobyted.init
-OS X:    org.gobyte.gobyted.plist
+SystemD: crowdcoind.service
+Upstart: crowdcoind.conf
+OpenRC:  crowdcoind.openrc
+         crowdcoind.openrcconf
+CentOS:  crowdcoind.init
+OS X:    org.crowdcoin.crowdcoind.plist
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,5 +1,4 @@
-// Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2018 The GoByte Core developers
+// Copyright (c) 2014-2017 The Crowdcoin Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -46,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CGoByteNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CCrowdcoinNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -80,7 +79,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  GOBYTE NETWORK (ROOT)
+ *  CRC NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -118,7 +117,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.gobyte.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.crowdcoin.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -131,7 +130,7 @@ public:
 };
 
 // // root node
-class CGoByteNetwork : public CGovernanceObject
+class CCrowdcoinNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +138,7 @@ private:
 
 
 public:
-    CGoByteNetwork(UniValue objIn)
+    CCrowdcoinNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -175,9 +174,9 @@ public:
 
 };
 
-// // can be under: GoByteNetwork
+// // can be under: CrowdcoinNetwork
 // //   -- signature requirements : Key1(User)
-// class CGoByteNetworkVariable : public CGovernanceObject
+// class CCrowdcoinNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -280,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == GoByteNetwork);
+//     //     return (IsType() == CrowdcoinNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between gobyte-cli and gobyted)
- * of a given instance of the GoByte system.
+ * CBaseChainParams defines the base parameters (shared between crowdcoin-cli and crowdcoind)
+ * of a given instance of the Crowdcoin system.
  */
 class CBaseChainParams
 {

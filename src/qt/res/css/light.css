@@ -744,16 +744,16 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About GoByte Dialog */
+/* About Crowdcoin Dialog */
 QDialog#AboutDialog {
 background-color:#F8F6F6;
 }
 
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About GoByte Contents */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Crowdcoin Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About GoByte text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Crowdcoin text */
 margin-right:10px;
 }
 
@@ -785,7 +785,7 @@ QWidget .QFrame#frame .QLabel#label_5 { /* Wallet Label */
 qproperty-alignment: 'AlignVCenter | AlignRight';
 min-width:160px;
 background-color:transparent;
-color:#999;
+color:#f4f4f5;
 margin-right:5px;
 padding-right:5px;
 }
@@ -1110,7 +1110,7 @@ min-width:410px;
 margin-right:20px;
 margin-left:0;
 margin-top:15px;
-background-image: url(':/images/light/gobyte_logo_horizontal');
+background-image: url(':/images/light/crowdcoin_logo_horizontal');
 background-repeat:none;
 }
 
