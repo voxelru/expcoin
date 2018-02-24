@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -352,7 +352,7 @@ private:
 
     void CompletedTransaction(PoolMessage nMessageID);
 
-    /// Get the denominations for a specific amount of crowdcoin.
+    /// Get the denominations for a specific amount of expcoin.
     int GetDenominationsByAmounts(const std::vector<CAmount>& vecAmount);
 
     std::string GetMessageByID(PoolMessage nMessageID);

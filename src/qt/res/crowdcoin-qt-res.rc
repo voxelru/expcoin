@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Crowdcoin"
-            VALUE "FileDescription",    "Crowdcoin Core (GUI node for Crowdcoin)"
+            VALUE "CompanyName",        "Expcoin"
+            VALUE "FileDescription",    "Expcoin Core (GUI node for Expcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "crowdcoin-qt"
+            VALUE "InternalName",       "expcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "crowdcoin-qt.exe"
-            VALUE "ProductName",        "Crowdcoin Core"
+            VALUE "OriginalFilename",   "expcoin-qt.exe"
+            VALUE "ProductName",        "Expcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

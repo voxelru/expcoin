@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your Crowdcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Crowdcoin адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
+        <source>These are your Expcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Expcoin адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
     </message>
     <message>
-        <source>These are your Crowdcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Crowdcoin адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
+        <source>These are your Expcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Expcoin адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Въведете старата парола и нова парола за портфейла.</translation>
     </message>
     <message>
-        <source>Crowdcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your crowdcoins from being stolen by malware infecting your computer.</source>
-        <translation>Crowdcoin Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Crowdcoin от вируси заразили  компютъра Ви.</translation>
+        <source>Expcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your expcoins from being stolen by malware infecting your computer.</source>
+        <translation>Expcoin Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Expcoin от вируси заразили  компютъра Ви.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Ядро</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,16 +266,16 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a Crowdcoin address</source>
-        <translation>Изпращане на монети към Crowdcoin адрес</translation>
+        <source>Send coins to a Expcoin address</source>
+        <translation>Изпращане на монети към Expcoin адрес</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and crowdcoin: URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и Crowdcoin: URI)</translation>
+        <source>Request payments (generates QR codes and expcoin: URIs)</source>
+        <translation>Заявка за плащане (генерира QR кодове и Expcoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,12 +302,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Crowdcoin Core</source>
-        <translation>&amp;За Crowdcoin ядрото</translation>
+        <source>&amp;About Expcoin Core</source>
+        <translation>&amp;За Expcoin ядрото</translation>
     </message>
     <message>
-        <source>Show information about Crowdcoin Core</source>
-        <translation>Покаци информация за Crowdcoin Core</translation>
+        <source>Show information about Expcoin Core</source>
+        <translation>Покаци информация за Expcoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -370,16 +370,16 @@
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your Crowdcoin addresses to prove you own them</source>
-        <translation>Подпиши съобщения с твоите Crowdcoin адреси за да докажеш че ги притежаваш</translation>
+        <source>Sign messages with your Expcoin addresses to prove you own them</source>
+        <translation>Подпиши съобщения с твоите Expcoin адреси за да докажеш че ги притежаваш</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Crowdcoin addresses</source>
-        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен Crowdcoin адрес</translation>
+        <source>Verify messages to ensure they were signed with specified Expcoin addresses</source>
+        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен Expcoin адрес</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -454,16 +454,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a crowdcoin: URI or payment request</source>
-        <translation>Отвори Crowdcoin: URI или заявка за плащане</translation>
+        <source>Open a expcoin: URI or payment request</source>
+        <translation>Отвори Expcoin: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Crowdcoin Core client</source>
-        <translation>Crowdcoin Core клиент</translation>
+        <source>Expcoin Core client</source>
+        <translation>Expcoin Core клиент</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -490,8 +490,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Crowdcoin network</source>
-        <translation><numerusform>%n активни връзки към Crowdcoin мрежата</numerusform><numerusform>%n активни връзки към Crowdcoin мрежата</numerusform></translation>
+        <source>%n active connection(s) to Expcoin network</source>
+        <translation><numerusform>%n активни връзки към Expcoin мрежата</numerusform><numerusform>%n активни връзки към Expcoin мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -518,8 +518,8 @@
         <translation><numerusform>%n часа</numerusform><numerusform>%n часа</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Crowdcoin Core</source>
-        <translation>Промяна опциите за конфигуриране на Crowdcoin Core</translation>
+        <source>Modify configuration options for Expcoin Core</source>
+        <translation>Промяна опциите за конфигуриране на Expcoin Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -534,8 +534,8 @@
         <translation>Отвори Masternode конфигурационен файл</translation>
     </message>
     <message>
-        <source>Show the Crowdcoin Core help message to get a list with possible Crowdcoin Core command-line options</source>
-        <translation>Покажи съобщението за помощ на Crowdcoin Core за да получите списък с възможните опции за командния ред на Crowdcoin Core</translation>
+        <source>Show the Expcoin Core help message to get a list with possible Expcoin Core command-line options</source>
+        <translation>Покажи съобщението за помощ на Expcoin Core за да получите списък с възможните опции за командния ред на Expcoin Core</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -957,16 +957,16 @@
         <translation>PrivateSend конфигурация</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>PrivateSend беше успешно настроен до основно ниво (%1  2 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Crowdcoin.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>PrivateSend беше успешно настроен до основно ниво (%1  2 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Expcoin.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>PrivateSend беше успешно настроен до високо ниво (%1 и 8 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Crowdcoin.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>PrivateSend беше успешно настроен до високо ниво (%1 и 8 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Expcoin.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>PrivateSend беше успешно настроен до максимално ниво (%1 и 16 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Crowdcoin.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>PrivateSend беше успешно настроен до максимално ниво (%1 и 16 цикъла). Може да промените това по всяко време, като отворите екрана за конфигурация на Expcoin.</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +1008,8 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Crowdcoin address.</source>
-        <translation>Въведеният адрес "%1" не е валиден Crowdcoin адрес.</translation>
+        <source>The entered address "%1" is not a valid Expcoin address.</source>
+        <translation>Въведеният адрес "%1" не е валиден Expcoin адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +1050,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin ядро</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +1062,8 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Crowdcoin Core</source>
-        <translation>За Crowdcoin ядрото</translation>
+        <source>About Expcoin Core</source>
+        <translation>За Expcoin ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1098,8 +1098,8 @@
         <translation>PrivateSend информация</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Crowdcoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivateSend основни понятия&lt;/h3&gt; PrivateSend ви дава истинска финансова независимост чрез скриване произхода на средствата ви. Всички Crowdcoin монети в портфейла ви са съставени от различни "входове" които можете да приемете като отделни дискретни монети&lt;br&gt; PrivateSend използва иновативен процес като смесва вашите входове с входовете на други двама души без монетите да напускат изобщо портфейла ви. Имате пълен контрол върху парите си през цялото време. &lt;hr&gt; &lt;b&gt; PrivateSend процесът работи по следния начин:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend започва чрез разделяне на транзакцията ви до стандартни деноминации. Тези деноминации са 0.01 CRC, 0.1 CRC, 1 CRC и 10 CRC --подобно на стандартните пари, които ползваме ежедневно.&lt;/li&gt; &lt;li&gt;Вашия портфейл изпраща запитване към специално конфигурираните софтуерни възли в мрежата, наречени "masternodes." Тези masternodes са информирани, че се интересувате от смесване на определена деноминация. Никаква идентификационна информация не се изпраща към   masternodes, така, че те никога не знаят "кой" сте.&lt;/li&gt; &lt;li&gt;Когато други двама души изпратят подобни съобщения, обозначаващи, че искат да смесят същата деноминация, смесващата сесия започва. Masternode смесват входовете и инструктират портфейлите на тримата потребители да платят новотрансформираните входове обратно към притежателите им. Вашият портфейл плаща деноминацията директно на себе си, но с различен адрес (наричан сменен адрес).  &lt;/li&gt; &lt;li&gt;С цел напълно скриване на доходите ви, вашият портфейл трябва да повтори този процес няколко пъти във всяка деноминация.  Всеки път завършеният процес се нарича "цикъл." Всеки цикъл на PrivateSend прави откриването на първоначалния източник на вашите средства напълно непроследим.&lt;/li&gt; &lt;li&gt;Този смесващ процес се случва като процес на заден фон без никаква намеса от ваша страна. Когато искате да направите транзакция, вашите средства са винаги анонимни. Не е необходимо допълнително изчакване. &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Вашият портфейл съдържа само 1000 от тези "сменяеми адреси". Всеки път когато се случва смесването до 9 от вашите адреси се ползват.  Това означава, че тези 1000 адреси се миксират в около 100 смесващи събития. Когато 900 се използват, вашия портфейл трябва да създаде повече адреси. Това може да стане само ако имате автоматично архивиране.&lt;br&gt; Следователно, потребителите, на които е изключено автоматичното архивиране, нямат и  PrivateSend включено. &lt;hr&gt;За повече информация вижте&lt;a href="https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://crowdcoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Expcoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 CRC, 0.1 CRC, 1 CRC and 10 CRC -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://expcoincoin.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://expcoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivateSend основни понятия&lt;/h3&gt; PrivateSend ви дава истинска финансова независимост чрез скриване произхода на средствата ви. Всички Expcoin монети в портфейла ви са съставени от различни "входове" които можете да приемете като отделни дискретни монети&lt;br&gt; PrivateSend използва иновативен процес като смесва вашите входове с входовете на други двама души без монетите да напускат изобщо портфейла ви. Имате пълен контрол върху парите си през цялото време. &lt;hr&gt; &lt;b&gt; PrivateSend процесът работи по следния начин:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend започва чрез разделяне на транзакцията ви до стандартни деноминации. Тези деноминации са 0.01 CRC, 0.1 CRC, 1 CRC и 10 CRC --подобно на стандартните пари, които ползваме ежедневно.&lt;/li&gt; &lt;li&gt;Вашия портфейл изпраща запитване към специално конфигурираните софтуерни възли в мрежата, наречени "masternodes." Тези masternodes са информирани, че се интересувате от смесване на определена деноминация. Никаква идентификационна информация не се изпраща към   masternodes, така, че те никога не знаят "кой" сте.&lt;/li&gt; &lt;li&gt;Когато други двама души изпратят подобни съобщения, обозначаващи, че искат да смесят същата деноминация, смесващата сесия започва. Masternode смесват входовете и инструктират портфейлите на тримата потребители да платят новотрансформираните входове обратно към притежателите им. Вашият портфейл плаща деноминацията директно на себе си, но с различен адрес (наричан сменен адрес).  &lt;/li&gt; &lt;li&gt;С цел напълно скриване на доходите ви, вашият портфейл трябва да повтори този процес няколко пъти във всяка деноминация.  Всеки път завършеният процес се нарича "цикъл." Всеки цикъл на PrivateSend прави откриването на първоначалния източник на вашите средства напълно непроследим.&lt;/li&gt; &lt;li&gt;Този смесващ процес се случва като процес на заден фон без никаква намеса от ваша страна. Когато искате да направите транзакция, вашите средства са винаги анонимни. Не е необходимо допълнително изчакване. &lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Вашият портфейл съдържа само 1000 от тези "сменяеми адреси". Всеки път когато се случва смесването до 9 от вашите адреси се ползват.  Това означава, че тези 1000 адреси се миксират в около 100 смесващи събития. Когато 900 се използват, вашия портфейл трябва да създаде повече адреси. Това може да стане само ако имате автоматично архивиране.&lt;br&gt; Следователно, потребителите, на които е изключено автоматичното архивиране, нямат и  PrivateSend включено. &lt;hr&gt;За повече информация вижте&lt;a href="https://expcoincoin.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://expcoincoin.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1121,16 +1121,16 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Crowdcoin Core.</source>
-        <translation>Добре дошли в ядрото на Crowdcoin.</translation>
+        <source>Welcome to Expcoin Core.</source>
+        <translation>Добре дошли в ядрото на Expcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Crowdcoin Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Crowdcoin да съхранява своята информация.</translation>
+        <source>As this is the first time the program is launched, you can choose where Expcoin Core will store its data.</source>
+        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Expcoin да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Crowdcoin Core will download and store a copy of the Crowdcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Crowdcoin ще свали и съхрани копие на Crowdcoin регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <source>Expcoin Core will download and store a copy of the Expcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Expcoin ще свали и съхрани копие на Expcoin регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1141,8 +1141,8 @@
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin ядро</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1330,20 +1330,20 @@
         <translation>(0 = автоматично, &lt;0 = оставете толкова неизползвани ядра)</translation>
     </message>
     <message>
-        <source>Amount of Crowdcoin to keep anonymized</source>
-        <translation>Постоянно поддържано количество анонимни Crowdcoin монети </translation>
+        <source>Amount of Expcoin to keep anonymized</source>
+        <translation>Постоянно поддържано количество анонимни Expcoin монети </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>П&amp;ортфейл</translation>
     </message>
     <message>
-        <source>Automatically start Crowdcoin Core after logging in to the system.</source>
-        <translation>Автоматично стартиране на Crowdcoin Core след влизане в системата.</translation>
+        <source>Automatically start Expcoin Core after logging in to the system.</source>
+        <translation>Автоматично стартиране на Expcoin Core след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Crowdcoin Core on system login</source>
-        <translation>&amp;Стартиране на Crowdcoin Core при влизане</translation>
+        <source>&amp;Start Expcoin Core on system login</source>
+        <translation>&amp;Стартиране на Expcoin Core при влизане</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1390,8 +1390,8 @@
         <translation>Тази сума действа като лимит, за да се изключи PrivateSend, когато веднъж бъде достигнат.</translation>
     </message>
     <message>
-        <source>Automatically open the Crowdcoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за Crowdcoin Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Expcoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Expcoin Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1402,8 +1402,8 @@
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the Crowdcoin network through a SOCKS5 proxy.</source>
-        <translation>Свързване с мрежата на Crowdcoin чрез SOCKS5 прокси.</translation>
+        <source>Connect to the Expcoin network through a SOCKS5 proxy.</source>
+        <translation>Свързване с мрежата на Expcoin чрез SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1414,8 +1414,8 @@
         <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Crowdcoin Core.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Crowdcoin Core. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Expcoin Core.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Expcoin Core. </translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1486,8 +1486,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Crowdcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Свързване с мрежата на Crowdcoin чрез SOCKS5 прокси за Tor скрити услуги.</translation>
+        <source>Connect to the Expcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Свързване с мрежата на Expcoin чрез SOCKS5 прокси за Tor скрити услуги.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/crowdcoin/</source>
+https://www.transifex.com/projects/p/expcoin/</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://www.transifex.com/projects/p/crowdcoin/</translation>
+https://www.transifex.com/projects/p/expcoin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1599,8 +1599,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Crowdcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Crowdcoin мрежата, но този процес все още не е завършен.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Expcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с Expcoin мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1868,8 +1868,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start crowdcoin: click-to-pay handler</source>
-        <translation>Не може да стартира crowdcoin: кликни за плащане на притежателя</translation>
+        <source>Cannot start expcoin: click-to-pay handler</source>
+        <translation>Не може да стартира expcoin: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1892,8 +1892,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Crowdcoin address or malformed URI parameters.</source>
-        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен Crowdcoin адрес или неправилно зададени URI параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Expcoin address or malformed URI parameters.</source>
+        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен Expcoin адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1974,8 +1974,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Crowdcoin address (e.g. %1)</source>
-        <translation>Въведете Crowdcoin адрес (напр.%1)</translation>
+        <source>Enter a Expcoin address (e.g. %1)</source>
+        <translation>Въведете Expcoin адрес (напр.%1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2112,8 +2112,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Използвана памет</translation>
     </message>
     <message>
-        <source>Open the Crowdcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на Crowdcoin Core от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the Expcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на Expcoin Core от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2320,8 +2320,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>&amp;Премахване на бан за Node</translation>
     </message>
     <message>
-        <source>Welcome to the Crowdcoin Core RPC console.</source>
-        <translation>Добре дошли в Crowdcoin Core RPC конзолата.</translation>
+        <source>Welcome to the Expcoin Core RPC console.</source>
+        <translation>Добре дошли в Expcoin Core RPC конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2391,8 +2391,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Crowdcoin network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Crowdcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Expcoin network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Expcoin.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2403,8 +2403,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Crowdcoin network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Crowdcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Expcoin network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на Expcoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2660,8 +2660,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for crowdcoin transactions than the network can process.</source>
-        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на crowdcoin транзакции отколкото мрежата може да обработи.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for expcoin transactions than the network can process.</source>
+        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на expcoin транзакции отколкото мрежата може да обработи.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2860,8 +2860,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Транзакцията беше отхвърлена! Това може да се случи, ако някои от монетите в портфейла ви, вече са изразходвани, например ако се използва копие от wallet.dat и монетите са изразходвани в копието, но не са отбелязани като изразходвани тук.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Crowdcoin address</source>
-        <translation>Внимание: Невалиден Crowdcoin адрес</translation>
+        <source>Warning: Invalid Expcoin address</source>
+        <translation>Внимание: Невалиден Expcoin адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2883,8 +2883,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The Crowdcoin address to send the payment to</source>
-        <translation>Crowdcoin адресът да изпрати плащането към </translation>
+        <source>The Expcoin address to send the payment to</source>
+        <translation>Expcoin адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2919,8 +2919,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>С&amp;ума:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Crowdcoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Таксата ще бъде приспадната от количеството за изпращане. Получателят ще получи по-малко количество Crowdcoin от това, което сте въвели в полето. Ако са избрани няколко получателя, таксата ще бъде разделена  по равно.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Expcoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Таксата ще бъде приспадната от количеството за изпращане. Получателят ще получи по-малко количество Expcoin от това, което сте въвели в полето. Ако са избрани няколко получателя, таксата ще бъде разделена  по равно.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2931,8 +2931,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the crowdcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Crowdcoin network.</source>
-        <translation>Съобщението което беше прикрепено към crowdcoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Crowdcoin мрежата.</translation>
+        <source>A message that was attached to the expcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Expcoin network.</source>
+        <translation>Съобщението което беше прикрепено към expcoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Expcoin мрежата.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2958,8 +2958,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Crowdcoin Core is shutting down...</source>
-        <translation>Crowdcoin ядрото се изключва...</translation>
+        <source>Expcoin Core is shutting down...</source>
+        <translation>Expcoin ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2977,12 +2977,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>&amp;Подпиши</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Crowdcoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Може да подпишете съобщенията/потвържденията с вашите адреси като доказателство, че сте получили Crowdcoin. Бъдете внимателни, не подписвайте съобщения, които биха разкрили лична информация без ваше съгласие.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Expcoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Може да подпишете съобщенията/потвържденията с вашите адреси като доказателство, че сте получили Expcoin. Бъдете внимателни, не подписвайте съобщения, които биха разкрили лична информация без ваше съгласие.</translation>
     </message>
     <message>
-        <source>The Crowdcoin address to sign the message with</source>
-        <translation>Crowdcoin адресът да подпише съобщението</translation>
+        <source>The Expcoin address to sign the message with</source>
+        <translation>Expcoin адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3013,8 +3013,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Crowdcoin address</source>
-        <translation>Подпиши съобщението за да докажеш че притежаваш този Crowdcoin адрес</translation>
+        <source>Sign the message to prove you own this Expcoin address</source>
+        <translation>Подпиши съобщението за да докажеш че притежаваш този Expcoin адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3037,12 +3037,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Въведете адреса на получателя, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за избегнете риска от злонамерена външна намеса. Имайте предвид, че това само доказва, че подписа е получен с адреса, но не доказва изпращането на всяка транзакция!</translation>
     </message>
     <message>
-        <source>The Crowdcoin address the message was signed with</source>
-        <translation>Crowdcoin адресът ,с който е подписано съобщението</translation>
+        <source>The Expcoin address the message was signed with</source>
+        <translation>Expcoin адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Crowdcoin address</source>
-        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен Crowdcoin адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Expcoin address</source>
+        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен Expcoin адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3108,8 +3108,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Ядро</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3120,8 +3120,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Crowdcoin Core developers</source>
-        <translation>Водещи Crowdcoin разработчици</translation>
+        <source>The Expcoin Core developers</source>
+        <translation>Водещи Expcoin разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3680,14 +3680,14 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
 </context>
 <context>
-    <name>crowdcoin-core</name>
+    <name>expcoin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Crowdcoin Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. Crowdcoin ядрото вече работи.</translation>
+        <source>Cannot obtain a lock on data directory %s. Expcoin Core is probably already running.</source>
+        <translation>Не може да се заключи дата директорията %s. Expcoin ядрото вече работи.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3726,8 +3726,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Crowdcoin Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. Crowdcoin ядрото най-вероятно вече работи.</translation>
+        <source>Unable to bind to %s on this computer. Expcoin Core is probably already running.</source>
+        <translation>Не може да се свърже с %s на този компютър. Expcoin ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4006,8 +4006,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Crowdcoin Core Developers</source>
-        <translation>Запазени права (C) 2014-%i Crowdcoin Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The Expcoin Core Developers</source>
+        <translation>Запазени права (C) 2014-%i Expcoin Core разработчиците</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4018,8 +4018,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Crowdcoin Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Crowdcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Expcoin Core</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Expcoin Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4062,8 +4062,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Crowdcoin Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. Crowdcoin ядрото се изключва.</translation>
+        <source>Initialization sanity check failed. Expcoin Core is shutting down.</source>
+        <translation>Инициализационната проверка не успешна. Expcoin ядрото се изключва.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4294,8 +4294,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Стойност повече от максимално позволената в PrivateSend басейна.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Crowdcoin Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте Crowdcoin за да завършите</translation>
+        <source>Wallet needed to be rewritten: restart Expcoin Core to complete</source>
+        <translation>Портфейлът трябва да бъде презаписан: рестартирайте Expcoin за да завършите</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4339,15 +4339,15 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
     <message>
         <source>Keep N CRC anonymized (default: %u)</source>
-        <translation>Поддържай N Crowdcoin анонимизирани (по подразбиране: %u)</translation>
+        <translation>Поддържай N Expcoin анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Пази поне &lt;n&gt; неосъществени транзакции в паметта (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Disable all Crowdcoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Изключване на всички специфични Crowdcoin функции (PrivateSend, InstantSend, Governance) (0-1, по подразбиране: %u)</translation>
+        <source>Disable all Expcoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Изключване на всички специфични Expcoin функции (PrivateSend, InstantSend, Governance) (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4426,8 +4426,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Максимална крайна такса (в %s) използвана в единична транзакция, ако е зададена твърде малка, няма да бъдат възможни големи транзакции (по подразбиране: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Crowdcoin Core will not work properly.</source>
-        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Crowdcoin Core няма да работи правилно.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Expcoin Core will not work properly.</source>
+        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Expcoin Core няма да работи правилно.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

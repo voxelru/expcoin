@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,7 +57,7 @@
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Crowdcoin Core cannot be compiled without assertions."
+# error "Expcoin Core cannot be compiled without assertions."
 #endif
 
 /**
@@ -2362,7 +2362,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("crowdcoin-scriptch");
+    RenameThread("expcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -4892,7 +4892,7 @@ bool static AlreadyHave(const CInv& inv) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
         return mapBlockIndex.count(inv.hash);
 
     /* 
-        Crowdcoin Related Inventory Messages
+        Expcoin Related Inventory Messages
 
         --
 

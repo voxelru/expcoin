@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/crowdcoin-config.h"
+#include "config/expcoin-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -130,10 +130,10 @@ void OptionsModel::Init(bool resetSettings)
 
     if (!settings.contains("nPrivateSendAmount")) {
         // for migration from old settings
-        if (!settings.contains("nAnonymizeCrowdcoinAmount"))
+        if (!settings.contains("nAnonymizeExpcoinAmount"))
             settings.setValue("nPrivateSendAmount", DEFAULT_PRIVATESEND_AMOUNT);
         else
-            settings.setValue("nPrivateSendAmount", settings.value("nAnonymizeCrowdcoinAmount").toInt());
+            settings.setValue("nPrivateSendAmount", settings.value("nAnonymizeExpcoinAmount").toInt());
     }
     if (!SoftSetArg("-privatesendamount", settings.value("nPrivateSendAmount").toString().toStdString()))
         addOverriddenOption("-privatesendamount");
@@ -192,7 +192,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in crowdcoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in expcoin.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

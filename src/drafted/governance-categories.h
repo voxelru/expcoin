@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CCrowdcoinNetwork: CRC NETWORK (ROOT)
+	CExpcoinNetwork: CRC NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CCrowdcoinProject> vecProjects;
+		vector<CExpcoinProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CCrowdcoinProject:
+	CExpcoinProject:
 	has:
 		name
 		employees

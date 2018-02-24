@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CCrowdcoinNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CExpcoinNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -117,7 +117,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.crowdcoin.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.expcoin.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CCrowdcoinNetwork : public CGovernanceObject
+class CExpcoinNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CCrowdcoinNetwork(UniValue objIn)
+    CExpcoinNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: CrowdcoinNetwork
+// // can be under: ExpcoinNetwork
 // //   -- signature requirements : Key1(User)
-// class CCrowdcoinNetworkVariable : public CGovernanceObject
+// class CExpcoinNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == CrowdcoinNetwork);
+//     //     return (IsType() == ExpcoinNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

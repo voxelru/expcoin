@@ -52,10 +52,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Crowdcoin Core crowdcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Expcoin Core expcoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  crowdcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded crowdcoin transaction") + "\n" +
-              "  crowdcoin-tx [options] -create [commands]   " + _("Create hex-encoded crowdcoin transaction") + "\n" +
+              "  expcoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded expcoin transaction") + "\n" +
+              "  expcoin-tx [options] -create [commands]   " + _("Create hex-encoded expcoin transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -609,7 +609,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded crowdcoin transaction
+            // param: hex-encoded expcoin transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

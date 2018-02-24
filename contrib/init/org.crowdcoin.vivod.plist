@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.crowdcoin.crowdcoind</string>
+	<string>org.expcoin.expcoind</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/crowdcoind</string>
+		<string>/usr/local/bin/expcoind</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

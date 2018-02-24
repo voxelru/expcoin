@@ -1,11 +1,11 @@
-Crowdcoin Core 0.12.1
+Expcoin Core 0.12.1
 =====================
 
-This is the official reference wallet for Crowdcoin digital currency and comprises the backbone of the Crowdcoin peer-to-peer network. You can [download Crowdcoin Core](https://www.crowdcoin.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Expcoin digital currency and comprises the backbone of the Expcoin peer-to-peer network. You can [download Expcoin Core](https://www.expcoin.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Crowdcoin on your native platform.
+The following are some helpful notes on how to run Expcoin on your native platform.
 
 ### Unix
 
@@ -16,22 +16,22 @@ Unpack the files into a directory and run:
 
 ### Windows
 
-Unpack the files into a directory, and then run crowdcoin-qt.exe.
+Unpack the files into a directory, and then run expcoin-qt.exe.
 
 ### OS X
 
-Drag Crowdcoin-Qt to your applications folder, and then run Crowdcoin-Qt.
+Drag Expcoin-Qt to your applications folder, and then run Expcoin-Qt.
 
 ### Need Help?
 
-* See the [Crowdcoin documentation](https://crowdcoincoin.atlassian.net/wiki/display/DOC)
+* See the [Expcoin documentation](https://expcoincoin.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#crowdcoincoin](http://webchat.freenode.net?channels=crowdcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=crowdcoincoin).
-* Ask for help on the [CrowdcoinTalk](https://crowdcointalk.org/) forums.
+* Ask for help on [#expcoincoin](http://webchat.freenode.net?channels=expcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=expcoincoin).
+* Ask for help on the [ExpcoinTalk](https://expcointalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Crowdcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Expcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Crowdcoin Core on your native 
 
 Development
 ---------------------
-The Crowdcoin Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Expcoin Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The Crowdcoin Core repo's [root README](/README.md) contains relevant informatio
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [CrowdcoinTalk](https://crowdcointalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#crowdcoincoin](http://webchat.freenode.net/?channels=crowdcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=crowdcoincoin).
+* Discuss on the [ExpcoinTalk](https://expcointalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#expcoincoin](http://webchat.freenode.net/?channels=expcoincoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=expcoincoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

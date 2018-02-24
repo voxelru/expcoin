@@ -53,7 +53,7 @@ private:
     Qt::SortOrder order;
 };
 
-/** Model for list of recently generated payment requests / crowdcoin: URIs.
+/** Model for list of recently generated payment requests / expcoin: URIs.
  * Part of wallet model.
  */
 class RecentRequestsTableModel: public QAbstractTableModel

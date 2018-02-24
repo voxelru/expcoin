@@ -6,7 +6,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/crowdcoin-config.h"
+#include "config/expcoin-config.h"
 #endif
 
 #include "amount.h"
@@ -230,7 +230,7 @@ private Q_SLOTS:
     void showPeers();
     void showRepair();
 
-    /** Open external (default) editor with crowdcoin.conf */
+    /** Open external (default) editor with expcoin.conf */
     void showConfEditor();
     /** Open external (default) editor with masternode.conf */
     void showMNConfEditor();

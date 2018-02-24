@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Crowdcoin"
-            VALUE "FileDescription",    "crowdcoind (Crowdcoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Expcoin"
+            VALUE "FileDescription",    "expcoind (Expcoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "crowdcoind"
+            VALUE "InternalName",       "expcoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "crowdcoind.exe"
-            VALUE "ProductName",        "crowdcoind"
+            VALUE "OriginalFilename",   "expcoind.exe"
+            VALUE "ProductName",        "expcoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

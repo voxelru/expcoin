@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the crowdcoind tests manually, launch `src/test/test_crowdcoin`.
+To run the expcoind tests manually, launch `src/test/test_expcoin`.
 
-To add more crowdcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more expcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the crowdcoin-qt tests manually, launch `src/qt/test/test_crowdcoin-qt`
+To run the expcoin-qt tests manually, launch `src/qt/test/test_expcoin-qt`
 
-To add more crowdcoin-qt tests, add them to the `src/qt/test/` directory and
+To add more expcoin-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

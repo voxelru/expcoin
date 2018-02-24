@@ -2,7 +2,7 @@
 set -e
 
 ROOTDIR=dist
-BUNDLE="${ROOTDIR}/Crowdcoin-Qt.app"
+BUNDLE="${ROOTDIR}/Expcoin-Qt.app"
 CODESIGN=codesign
 TEMPDIR=sign.temp
 TEMPLIST=${TEMPDIR}/signatures.txt

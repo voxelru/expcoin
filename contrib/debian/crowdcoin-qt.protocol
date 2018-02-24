@@ -1,6 +1,6 @@
 [Protocol]
-exec=crowdcoin-qt '%u'
-protocol=crowdcoin
+exec=expcoin-qt '%u'
+protocol=expcoin
 input=none
 output=none
 helper=true

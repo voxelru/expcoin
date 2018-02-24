@@ -1,10 +1,10 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/crowdcoin-config.h"
+#include "config/expcoin-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -95,7 +95,7 @@ static void InitMessage(const std::string &message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("crowdcoin-core", psz).toStdString();
+    return QCoreApplication::translate("expcoin-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -142,11 +142,11 @@ static void initTranslations(QTranslator &qtTranslatorBase, QTranslator &qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in crowdcoin.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in expcoin.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in crowdcoin.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in expcoin.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -167,7 +167,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Crowdcoin Core startup and shutdown.
+/** Class encapsulating Expcoin Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore: public QObject
@@ -197,7 +197,7 @@ private:
     void handleRunawayException(const std::exception *e);
 };
 
-/** Main Crowdcoin application object */
+/** Main Expcoin application object */
 class BitcoinApplication: public QApplication
 {
     Q_OBJECT
@@ -258,7 +258,7 @@ private:
     void startThread();
 };
 
-#include "crowdcoin.moc"
+#include "expcoin.moc"
 
 BitcoinCore::BitcoinCore():
     QObject()
@@ -515,7 +515,7 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // crowdcoin: URIs or payment requests:
+        // expcoin: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
                          window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -537,7 +537,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Crowdcoin Core can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Expcoin Core can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(EXIT_FAILURE);
 }
 
@@ -567,8 +567,8 @@ int main(int argc, char *argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(crowdcoin);
-    Q_INIT_RESOURCE(crowdcoin_locale);
+    Q_INIT_RESOURCE(expcoin);
+    Q_INIT_RESOURCE(expcoin_locale);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -619,18 +619,18 @@ int main(int argc, char *argv[])
     // User language is set up: pick a data directory
     Intro::pickDataDirectory();
 
-    /// 6. Determine availability of data directory and parse crowdcoin.conf
+    /// 6. Determine availability of data directory and parse expcoin.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
-        QMessageBox::critical(0, QObject::tr("Crowdcoin Core"),
+        QMessageBox::critical(0, QObject::tr("Expcoin Core"),
                               QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return EXIT_FAILURE;
     }
     try {
         ReadConfigFile(mapArgs, mapMultiArgs);
     } catch (const std::exception& e) {
-        QMessageBox::critical(0, QObject::tr("Crowdcoin Core"),
+        QMessageBox::critical(0, QObject::tr("Expcoin Core"),
                               QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
         return EXIT_FAILURE;
     }
@@ -645,7 +645,7 @@ int main(int argc, char *argv[])
     try {
         SelectParams(ChainNameFromCommandLine());
     } catch(std::exception &e) {
-        QMessageBox::critical(0, QObject::tr("Crowdcoin Core"), QObject::tr("Error: %1").arg(e.what()));
+        QMessageBox::critical(0, QObject::tr("Expcoin Core"), QObject::tr("Error: %1").arg(e.what()));
         return EXIT_FAILURE;
     }
 #ifdef ENABLE_WALLET
@@ -664,7 +664,7 @@ int main(int argc, char *argv[])
     /// 7a. parse masternode.conf
     std::string strErr;
     if(!masternodeConfig.read(strErr)) {
-        QMessageBox::critical(0, QObject::tr("Crowdcoin Core"),
+        QMessageBox::critical(0, QObject::tr("Expcoin Core"),
                               QObject::tr("Error reading masternode configuration file: %1").arg(strErr.c_str()));
         return EXIT_FAILURE;
     }
@@ -679,7 +679,7 @@ int main(int argc, char *argv[])
         exit(EXIT_SUCCESS);
 
     // Start up the payment server early, too, so impatient users that click on
-    // crowdcoin: links repeatedly have their payment requests routed to this process:
+    // expcoin: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 
@@ -713,7 +713,7 @@ int main(int argc, char *argv[])
         app.createWindow(networkStyle.data());
         app.requestInitialize();
 #if defined(Q_OS_WIN) && QT_VERSION >= 0x050000
-        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Crowdcoin Core didn't yet exit safely..."), (HWND)app.getMainWinId());
+        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Expcoin Core didn't yet exit safely..."), (HWND)app.getMainWinId());
 #endif
         app.exec();
         app.requestShutdown();

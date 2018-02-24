@@ -1,12 +1,12 @@
-# bash programmable completion for crowdcoind(1) and crowdcoin-cli(1)
+# bash programmable completion for expcoind(1) and expcoin-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have crowdcoind && {
+have expcoind && {
 
-# call $crowdcoind for RPC
-_crowdcoin_rpc() {
+# call $expcoind for RPC
+_expcoin_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _crowdcoin_rpc() {
                 ;;
         esac
     done
-    $crowdcoind "${rpcargs[@]}" "$@"
+    $expcoind "${rpcargs[@]}" "$@"
 }
 
-# Add crowdcoin accounts to COMPREPLY
-_crowdcoin_accounts() {
+# Add expcoin accounts to COMPREPLY
+_expcoin_accounts() {
     local accounts
-    accounts=$(_crowdcoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_expcoin_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_crowdcoind() {
+_expcoind() {
     local cur prev words=() cword
-    local crowdcoind
+    local expcoind
 
-    # save and use original argument to invoke crowdcoind
-    # crowdcoind might not be in $PATH
-    crowdcoind="$1"
+    # save and use original argument to invoke expcoind
+    # expcoind might not be in $PATH
+    expcoind="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _crowdcoind() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _crowdcoin_accounts
+                _expcoin_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _crowdcoind() {
                 return 0
                 ;;
             move|setaccount)
-                _crowdcoin_accounts
+                _expcoin_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _crowdcoind() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _crowdcoin_accounts
+            _expcoin_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _crowdcoind() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($crowdcoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($expcoind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_crowdcoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_expcoin_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _crowdcoind() {
     esac
 }
 
-complete -F _crowdcoind crowdcoind crowdcoin-cli
+complete -F _expcoind expcoind expcoin-cli
 }
 
 # Local variables:

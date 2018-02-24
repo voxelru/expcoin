@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both crowdcoind and crowdcoin-qt, to make it harder for attackers to
+ * for both expcoind and expcoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Crowdcoin Core");
+const std::string CLIENT_NAME("Expcoin Core");
 
 /**
  * Client version number

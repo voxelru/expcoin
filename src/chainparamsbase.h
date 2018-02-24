@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between crowdcoin-cli and crowdcoind)
- * of a given instance of the Crowdcoin system.
+ * CBaseChainParams defines the base parameters (shared between expcoin-cli and expcoind)
+ * of a given instance of the Expcoin system.
  */
 class CBaseChainParams
 {

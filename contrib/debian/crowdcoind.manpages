@@ -1,3 +1,3 @@
-debian/manpages/crowdcoind.1
-debian/manpages/crowdcoin.conf.5
-debian/manpages/crowdcoin-cli.1
+debian/manpages/expcoind.1
+debian/manpages/expcoin.conf.5
+debian/manpages/expcoin-cli.1

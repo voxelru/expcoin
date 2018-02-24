@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 
 #include "cachemultimap.h"
 
-#include "test/test_crowdcoin.h"
+#include "test/test_expcoin.h"
 
 #include <algorithm>
 #include <iostream>

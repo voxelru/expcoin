@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // CrowdcoinNetwork - is the root node
-    CrowdcoinNetwork = 1000,
-    CrowdcoinNetworkVariable = 1001,
+    // ExpcoinNetwork - is the root node
+    ExpcoinNetwork = 1000,
+    ExpcoinNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

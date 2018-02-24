@@ -138,12 +138,12 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 	echo && echo "Downloading CrowdCoin.."
 	sleep 3
 	cd
-	git clone https://github.com/crowdcoinChain/Crowdcoin.git
+	git clone https://github.com/expcoinChain/Expcoin.git
 	
 	# Install CrowdCoin
 	echo && echo "Installing CrowdCoin..."
 	sleep 3
-	cd Crowdcoin
+	cd Expcoin
 	chmod 755 autogen.sh
 	./autogen.sh
 	./configure
@@ -154,33 +154,33 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 	echo && echo "Configuring CrowdCoin..."
 	sleep 3
 	cd ~
-	cd Crowdcoin/src
-	./crowdcoind -daemon
+	cd Expcoin/src
+	./expcoind -daemon
 	sleep 10
-	./crowdcoin-cli stop
+	./expcoin-cli stop
 	sleep 10
 	rpcuser=`cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1`
 	rpcpass=`pwgen -1 20 -n`
-	cd /root/.crowdcoincore 
-	echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcallowip=127.0.0.1\nrpcport=11998\nrpcthreads=8\nlisten=1\nserver=1\ndaemon=1\nstaking=0\ndiscover=1\nexternalip=${ip}:12875\nmasternode=1\nmasternodeprivkey=${key}\naddnode=84.17.23.43:12875\naddnode=18.220.138.90:12875\naddnode=86.57.164.166:12875\naddnode=86.57.164.146:12875\naddnode=18.217.78.145:12875\naddnode=23.92.30.230:12875\naddnode=35.190.182.68:12875\naddnode=80.209.236.4:12875\naddnode=91.201.40.89:12875" > /root/.crowdcoincore/crowdcoin.conf
+	cd /root/.expcoincore 
+	echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcallowip=127.0.0.1\nrpcport=11998\nrpcthreads=8\nlisten=1\nserver=1\ndaemon=1\nstaking=0\ndiscover=1\nexternalip=${ip}:12875\nmasternode=1\nmasternodeprivkey=${key}\naddnode=84.17.23.43:12875\naddnode=18.220.138.90:12875\naddnode=86.57.164.166:12875\naddnode=86.57.164.146:12875\naddnode=18.217.78.145:12875\naddnode=23.92.30.230:12875\naddnode=35.190.182.68:12875\naddnode=80.209.236.4:12875\naddnode=91.201.40.89:12875" > /root/.expcoincore/expcoin.conf
 	
 	# Download and install sentinel
 	echo && echo "Installing Sentinel..."
 	sleep 3
-	cd /root/.crowdcoincore
-	git clone https://github.com/crowdcoinChain/sentinelLinux.git && cd sentinelLinux
+	cd /root/.expcoincore
+	git clone https://github.com/expcoinChain/sentinelLinux.git && cd sentinelLinux
 	export LC_ALL=C
 	virtualenv ./venv
 	./venv/bin/pip install -r requirements.txt
-	echo  "* * * * * cd /root/.crowdcoincore/sentinelLinux && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1" >> mycron
+	echo  "* * * * * cd /root/.expcoincore/sentinelLinux && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1" >> mycron
 	crontab mycron
 	rm mycron
-	rpl dash_conf=/home/YOURUSERNAME/.crowdcoincore/crowdcoin.conf dash_conf=/root/.crowdcoincore/crowdcoin.conf sentinel.conf
+	rpl dash_conf=/home/YOURUSERNAME/.expcoincore/expcoin.conf dash_conf=/root/.expcoincore/expcoin.conf sentinel.conf
 	
 	#Start CrowdCoin Daemon
 	sleep 60
-	cd /root/Crowdcoin/src
-	./crowdcoind -daemon
+	cd /root/Expcoin/src
+	./expcoind -daemon
 	cd ~
 	echo && echo && echo
 	echo "CrowdCoin installation completed successfully.  Please wait 15 minutes and then start your masternode from your local wallet"	

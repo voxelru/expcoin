@@ -1,15 +1,15 @@
 [Unit]
-Description=Crowdcoin's distributed currency daemon
+Description=Expcoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=crowdcoincore
-Group=crowdcoincore
+User=expcoincore
+Group=expcoincore
 
 Type=forking
-PIDFile=/var/lib/crowdcoind/crowdcoind.pid
-ExecStart=/usr/bin/crowdcoind -daemon -pid=/var/lib/crowdcoind/crowdcoind.pid \
--conf=/etc/crowdcoincore/crowdcoin.conf -datadir=/var/lib/crowdcoind -disablewallet
+PIDFile=/var/lib/expcoind/expcoind.pid
+ExecStart=/usr/bin/expcoind -daemon -pid=/var/lib/expcoind/expcoind.pid \
+-conf=/etc/expcoincore/expcoin.conf -datadir=/var/lib/expcoind -disablewallet
 
 Restart=always
 PrivateTmp=true

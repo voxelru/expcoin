@@ -1,8 +1,8 @@
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 
 #include "governance.h"
 
-#include "test/test_crowdcoin.h"
+#include "test/test_expcoin.h"
 
 #include <boost/test/unit_test.hpp>
 

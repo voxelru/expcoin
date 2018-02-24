@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your Crowdcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy Crowdcoin na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
+        <source>These are your Expcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy Expcoin na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
     </message>
     <message>
-        <source>These are your Crowdcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania Crowdcoinów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
+        <source>These are your Expcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy do otrzymywania Expcoinów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>Crowdcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your crowdcoins from being stolen by malware infecting your computer.</source>
-        <translation>Crowdcoin zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <source>Expcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your expcoins from being stolen by malware infecting your computer.</source>
+        <translation>Expcoin zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Core</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>Send coins to a Crowdcoin address</source>
-        <translation>Wyślij monety na adres Crowdcoin</translation>
+        <source>Send coins to a Expcoin address</source>
+        <translation>Wyślij monety na adres Expcoin</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and crowdcoin: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz crowdcoin: link)</translation>
+        <source>Request payments (generates QR codes and expcoin: URIs)</source>
+        <translation>Poproś o płatności (generuje kod QR oraz expcoin: link)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Zamknij program</translation>
     </message>
     <message>
-        <source>&amp;About Crowdcoin Core</source>
-        <translation>&amp;O Crowdcoin Core</translation>
+        <source>&amp;About Expcoin Core</source>
+        <translation>&amp;O Expcoin Core</translation>
     </message>
     <message>
-        <source>Show information about Crowdcoin Core</source>
-        <translation>Pokaż informacje o Crowdcoin Core</translation>
+        <source>Show information about Expcoin Core</source>
+        <translation>Pokaż informacje o Expcoin Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opcje...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Crowdcoin</source>
-        <translation>Zmień opcje konfiguracji dla Crowdcoin</translation>
+        <source>Modify configuration options for Expcoin</source>
+        <translation>Zmień opcje konfiguracji dla Expcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpisz wiado&amp;mość...</translation>
     </message>
     <message>
-        <source>Sign messages with your Crowdcoin addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem Crowdcoin aby udowodnić, że jesteś ich właścicielem. </translation>
+        <source>Sign messages with your Expcoin addresses to prove you own them</source>
+        <translation>Podpisz wiadomości swoim adresem Expcoin aby udowodnić, że jesteś ich właścicielem. </translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Crowdcoin addresses</source>
-        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Crowdcoin</translation>
+        <source>Verify messages to ensure they were signed with specified Expcoin addresses</source>
+        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Expcoin</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otwórz URI...</translation>
     </message>
     <message>
-        <source>Open a crowdcoin: URI or payment request</source>
-        <translation>Otwórz crowdcoin: Link lub żądanie zapłaty</translation>
+        <source>Open a expcoin: URI or payment request</source>
+        <translation>Otwórz expcoin: Link lub żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opcje konsoli</translation>
     </message>
     <message>
-        <source>Crowdcoin Core client</source>
-        <translation>Klient Crowdcoin Core</translation>
+        <source>Expcoin Core client</source>
+        <translation>Klient Expcoin Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizuję dodatkowe dane: %p%</translation>
     </message>
     <message>
-        <source>Show the Crowdcoin Core help message to get a list with possible Crowdcoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy Crowdcoin Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
+        <source>Show the Expcoin Core help message to get a list with possible Expcoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy Expcoin Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Crowdcoin network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci Crowdcoin</numerusform><numerusform>%n aktywne połączenia do sieci Crowdcoin</numerusform><numerusform>%n aktywne połączenia do sieci Crowdcoin</numerusform></translation>
+        <source>%n active connection(s) to Expcoin network</source>
+        <translation><numerusform>%n aktywne połączenie do sieci Expcoin</numerusform><numerusform>%n aktywne połączenia do sieci Expcoin</numerusform><numerusform>%n aktywne połączenia do sieci Expcoin</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Adres: %4
         <translation>Konfiguracja Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Crowdcoin.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Expcoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Crowdcoin.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Expcoin.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Crowdcoin's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Crowdcoin.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Expcoin's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Expcoin.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Crowdcoin address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Crowdcoin.</translation>
+        <source>The entered address "%1" is not a valid Expcoin address.</source>
+        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Expcoin.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Core</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Crowdcoin Core</source>
-        <translation>Informacje o Crowdcoin Core</translation>
+        <source>About Expcoin Core</source>
+        <translation>Informacje o Expcoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adres: %4
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to Crowdcoin Core.</source>
-        <translation>Witaj w Crowdcoin Core</translation>
+        <source>Welcome to Expcoin Core.</source>
+        <translation>Witaj w Expcoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Crowdcoin Core will store its data.</source>
-        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Crowdcoin Core będzie przechowywał dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where Expcoin Core will store its data.</source>
+        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Expcoin Core będzie przechowywał dane.</translation>
     </message>
     <message>
-        <source>Crowdcoin Core will download and store a copy of the Crowdcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Crowdcoin Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <source>Expcoin Core will download and store a copy of the Expcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Expcoin Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Core</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Automatically start Crowdcoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom Crowdcoin po zalogowaniu się do systemu.</translation>
+        <source>Automatically start Expcoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom Expcoin po zalogowaniu się do systemu.</translation>
     </message>
     <message>
-        <source>&amp;Start Crowdcoin on system login</source>
-        <translation>&amp;Uruchom Crowdcoin po zalogowaniu się do systemu</translation>
+        <source>&amp;Start Expcoin on system login</source>
+        <translation>&amp;Uruchom Expcoin po zalogowaniu się do systemu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Ta kwota działa jako próg po którego przekroczeniu Darksend zostaje wyłączony.</translation>
     </message>
     <message>
-        <source>Amount of Crowdcoin to keep anonymized</source>
-        <translation>Ilość Crowdcoinów, które mają pozostać anonimowe.</translation>
+        <source>Amount of Expcoin to keep anonymized</source>
+        <translation>Ilość Expcoinów, które mają pozostać anonimowe.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Adres: %4
         <translation>Zezwól na przychdzące połączenia</translation>
     </message>
     <message>
-        <source>Connect to the Crowdcoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Crowdcoin przez proxy SOCKS5.</translation>
+        <source>Connect to the Expcoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią Expcoin przez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,7 +1206,7 @@ Adres: %4
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>Automatically open the Crowdcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Expcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatycznie uruchamiaj port klienta Darkcoina na ruterze. To działa tylko jeśli twój ruter wspiera  i ma włączone UPnP.</translation>
     </message>
     <message>
@@ -1258,14 +1258,14 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Crowdcoin.</source>
-        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Crowdcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Expcoin.</source>
+        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Expcoin.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/crowdcoin/</source>
-        <translation>Crowdcoin Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
-https://www.transifex.com/projects/p/crowdcoin/</translation>
+https://www.transifex.com/projects/p/expcoin/</source>
+        <translation>Expcoin Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+https://www.transifex.com/projects/p/expcoin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Crowdcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Crowdcoin jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Expcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Expcoin jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start crowdcoin: click-to-pay handler</source>
-        <translation>Nie można włączyć crowdcoin: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <source>Cannot start expcoin: click-to-pay handler</source>
+        <translation>Nie można włączyć expcoin: kliknij-aby-zapłacić ubsługującemu.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Crowdcoin address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Crowdcoin lub niewłaściwe parametry URI</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Expcoin address or malformed URI parameters.</source>
+        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Expcoin lub niewłaściwe parametry URI</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a Crowdcoin address (e.g. %1)</source>
-        <translation>Wpisz adres Crowdcoin (np. %1)</translation>
+        <source>Enter a Expcoin address (e.g. %1)</source>
+        <translation>Wpisz adres Expcoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Liczba połączeń</translation>
     </message>
     <message>
-        <source>Open the Crowdcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Expcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwiera plik z zapisami debugowania Darkcoina z obecnego katalogu. Może to potrfać kilka sekund w zależności od rozmiaru pliku.</translation>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Wyjście:</translation>
     </message>
     <message>
-        <source>Welcome to the Crowdcoin RPC console.</source>
+        <source>Welcome to the Expcoin RPC console.</source>
         <translation>Witaj w konsoli RPC Darkcoina</translation>
     </message>
     <message>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Użyj istniejący adres odbiorczy (nie zalecane)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Crowdcoin network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Crowdcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Expcoin network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Expcoin.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Crowdcoin network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Crowdcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Expcoin network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Expcoin.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów a sama transakcja ma tylko 250 bitów, to opłata jako "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jedn kilobajt opłata jest naliczana od kilobajta.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for crowdcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for expcoin transactions than the network can process.</source>
         <translation>Uiszczanie minimalnej opłaty za transakcję jest ok dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jednakże, jeśli zaistnieje taka sytuacja w której wysłanych zostaje więcej transakcji niż sieć może przetworzyć, to jest możliwe, że twoja transakcja nigdy nie zostanie potwierdzona.</translation>
     </message>
     <message>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Uiść minimalną opłatę %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Crowdcoin address</source>
-        <translation>Ostrzeżenie: adres Crowdcoin jest nieprawidlowy </translation>
+        <source>Warning: Invalid Expcoin address</source>
+        <translation>Ostrzeżenie: adres Expcoin jest nieprawidlowy </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
-        <source>The Crowdcoin address to send the payment to</source>
-        <translation>Adres Crowdcoin na który wysłać fundusze</translation>
+        <source>The Expcoin address to send the payment to</source>
+        <translation>Adres Expcoin na który wysłać fundusze</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the crowdcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Crowdcoin network.</source>
-        <translation>Wiadomość, która została dołączona do crowdcoin: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
+        <source>A message that was attached to the expcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Expcoin network.</source>
+        <translation>Wiadomość, która została dołączona do expcoin: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Crowdcoin Core is shutting down...</source>
-        <translation>Trwa zamykanie Crowdcoin Core</translation>
+        <source>Expcoin Core is shutting down...</source>
+        <translation>Trwa zamykanie Expcoin Core</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The Crowdcoin address to sign the message with</source>
-        <translation>Adres Crowdcoin do podpisu wiadomości</translation>
+        <source>The Expcoin address to sign the message with</source>
+        <translation>Adres Expcoin do podpisu wiadomości</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Crowdcoin address</source>
-        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Crowdcoin.</translation>
+        <source>Sign the message to prove you own this Expcoin address</source>
+        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Expcoin.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Wpisz adres podpisujący, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
     <message>
-        <source>The Crowdcoin address the message was signed with</source>
-        <translation>Adres Crowdcoin którym wiadomość została podpisana</translation>
+        <source>The Expcoin address the message was signed with</source>
+        <translation>Adres Expcoin którym wiadomość została podpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Crowdcoin address</source>
-        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Crowdcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Expcoin address</source>
+        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Expcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Crowdcoin Core</source>
-        <translation>Crowdcoin Core</translation>
+        <source>Expcoin Core</source>
+        <translation>Expcoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Crowdcoin Core developers</source>
-        <translation>Deweloperzy Crowdcoin Core</translation>
+        <source>The Expcoin Core developers</source>
+        <translation>Deweloperzy Expcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
     </message>
 </context>
 <context>
-    <name>crowdcoin-core</name>
+    <name>expcoin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Crowdcoin Core is probably already running.</source>
-        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Crowdcoin jest już uruchomiony. </translation>
+        <source>Cannot obtain a lock on data directory %s. Expcoin Core is probably already running.</source>
+        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Expcoin jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Crowdcoin Core is probably already running.</source>
-        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Crowdcoin jest już uruchomiony. </translation>
+        <source>Unable to bind to %s on this computer. Expcoin Core is probably already running.</source>
+        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Expcoin jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
     </message>
     <message>
-        <source>Disable all Crowdcoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie dodatkowe funckje Crowdcoin (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
+        <source>Disable all Expcoin specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie dodatkowe funckje Expcoin (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3710,26 +3710,26 @@ https://www.transifex.com/projects/p/crowdcoin/</translation>
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Projekt do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use crowdcoind, or the -server option to crowdcoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use expcoind, or the -server option to expcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=crowdcoinrpc
+rpcuser=expcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Crowdcoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Expcoin Alert" admin@foo.com
 </source>
-        <translation>Aby używać crowdcoind, lub opcje -server w kliencie crowdcoin-qt, musisz ustawić hasło rpc w pliku konfiguracji:
+        <translation>Aby używać expcoind, lub opcje -server w kliencie expcoin-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
-rpcuser=crowdcoinrpc
+rpcuser=expcoinrpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
 Jeśli plik nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
-Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Crowdcoin Alert" admin@foo.com
+Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Expcoin Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Uwaga: -maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Crowdcoin Core will not work properly.</source>
-        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Crowdcoin może nie działać poprawidłowo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Expcoin Core will not work properly.</source>
+        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Expcoin może nie działać poprawidłowo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Crowdcoin Core Developers</source>
-        <translation>Prawa autorskie (C) 2014-%i deweloperzy Crowdcoin</translation>
+        <source>Copyright (C) 2014-%i The Expcoin Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy Expcoin</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd w połączeniu z Masternodem.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Crowdcoin Core</source>
-        <translation>Błąd wczytywania wallet.dat: Portfel wymaga nowszej wersji Crowdcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Expcoin Core</source>
+        <translation>Błąd wczytywania wallet.dat: Portfel wymaga nowszej wersji Expcoin</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Crowdcoin Core is shutting down.</source>
-        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Crowdcoin Core</translation>
+        <source>Initialization sanity check failed. Expcoin Core is shutting down.</source>
+        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Expcoin Core</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Crowdcoin Core to complete</source>
-        <translation>Portfel musi być przepisany: uruchom ponownie Crowdcoin Core aby zakończyć.</translation>
+        <source>Wallet needed to be rewritten: restart Expcoin Core to complete</source>
+        <translation>Portfel musi być przepisany: uruchom ponownie Expcoin Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4216,7 +4216,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Keep N CRC anonymized (default: %u)</source>
-        <translation>Utrzymuj N zanonimizowanych crowdcoin (domyślnie: %u)</translation>
+        <translation>Utrzymuj N zanonimizowanych expcoin (domyślnie: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

@@ -2,26 +2,26 @@
 
 # backward compatibility for existing gentoo layout 
 #
-if [ -d "/var/lib/crowdcoincore/.crowdcoincore" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/crowdcoincore/.crowdcoincore"
+if [ -d "/var/lib/expcoincore/.expcoincore" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/expcoincore/.expcoincore"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/crowdcoind"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/expcoind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/crowdcoincore/crowdcoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/crowdcoind}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/crowdcoind.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/expcoincore/expcoin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/expcoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/expcoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-crowdcoincore}}
-BITCOIND_GROUP=${BITCOIND_GROUP:-crowdcoincore}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/crowdcoind}
+BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-expcoincore}}
+BITCOIND_GROUP=${BITCOIND_GROUP:-expcoincore}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/expcoind}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="Crowdcoin Core Daemon"
-description="Crowdcoin cryptocurrency P2P network daemon"
+name="Expcoin Core Daemon"
+description="Expcoin cryptocurrency P2P network daemon"
 
-command="/usr/bin/crowdcoind"
+command="/usr/bin/expcoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run crowdcoind."
+		eerror "ERROR: You must set a secure rpcpassword to run expcoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Crowdcoin Core Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Expcoin Core Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

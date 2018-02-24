@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The Crowdcoin Core developers
+// Copyright (c) 2014-2017 The Expcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case CRC: return QString("Crowdcoin");
-            case mCRC: return QString("Milli-Crowdcoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uCRC: return QString("Micro-Crowdcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Crowdcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case CRC: return QString("Expcoin");
+            case mCRC: return QString("Milli-Expcoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uCRC: return QString("Micro-Expcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Expcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case CRC: return QString("TestCrowdcoins");
-            case mCRC: return QString("Milli-TestCrowdcoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uCRC: return QString("Micro-TestCrowdcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestCrowdcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case CRC: return QString("TestExpcoins");
+            case mCRC: return QString("Milli-TestExpcoin (1 / 1" THIN_SP_UTF8 "000)");
+            case uCRC: return QString("Micro-TestExpcoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestExpcoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

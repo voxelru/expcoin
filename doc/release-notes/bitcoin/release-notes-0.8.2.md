@@ -116,7 +116,7 @@ Gregory Maxwell
 Jeff Garzik
 Jonas Schnelli
 Larry Gilbert
-Luke Crowdcoinjr
+Luke Expcoinjr
 Matt Corallo
 Michael Ford
 Mike Hearn

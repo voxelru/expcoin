@@ -1,25 +1,25 @@
-# /etc/conf.d/crowdcoind: config file for /etc/init.d/crowdcoind
+# /etc/conf.d/expcoind: config file for /etc/init.d/expcoind
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/crowdcoincore/crowdcoin.conf"
+#BITCOIND_CONFIGFILE="/etc/expcoincore/expcoin.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/crowdcoind"
+#BITCOIND_PIDDIR="/var/run/expcoind"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/crowdcoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/expcoind.pid"
 
-# Where to write crowdcoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/crowdcoind"
+# Where to write expcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/expcoind"
 
-# User and group to own crowdcoind process
-#BITCOIND_USER="crowdcoincore"
-#BITCOIND_GROUP="crowdcoincore"
+# User and group to own expcoind process
+#BITCOIND_USER="expcoincore"
+#BITCOIND_GROUP="expcoincore"
 
-# Path to crowdcoind executable
-#BITCOIND_BIN="/usr/bin/crowdcoind"
+# Path to expcoind executable
+#BITCOIND_BIN="/usr/bin/expcoind"
 
-# Nice value to run crowdcoind under
+# Nice value to run expcoind under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
